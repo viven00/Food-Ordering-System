@@ -1,0 +1,261 @@
+@media (min-width: 576px) {
+  body .form {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  body .form {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  body .form {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body .form {
+    max-width: 1240px;
+  }
+}
+
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* bgimg (index) */
+#index1 {
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+/* title (index)  */
+.indexContent {
+  margin-top: 15%;
+  text-align: center;
+  width: 100%;
+}
+
+.title{
+  color: rgb(46, 44, 44);
+  font-size: 65px;
+  /* font-family: 'alex brush'; */
+  /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #AF6E4D, 0 0 20px #AF6E4D, 0 0 25px #AF6E4D, 0 0 30px #AF6E4D, 0 0 35px #AF6E4D; */
+}
+
+
+/* buttons layout (index) */
+.indexbtn {
+  background-color: rgb(171, 168, 168);
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-left: 17px;
+}
+
+/* for centralizing the buttons (index)  */
+#indexbtnoverall {
+  /* border: 3px solid black; */
+  width: 50%;
+  margin: auto;
+  padding-top: 12px;
+  padding-left: 12%;
+}
+
+/* to remove any underline links for the href (index) */
+.indexbtn:hover {
+  text-decoration: none;
+}
+
+
+/* admin login form (login) */
+#loginbox {
+  margin: auto;
+  margin-top: 13%;
+  width: auto;
+  /* border: 3px solid black; */
+  text-align: center;
+  padding: 10px;
+}
+
+/* login background */
+#loginbg {
+  /* background-color: rgb(185, 185, 185); */
+  background-image: url('login_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+#custbg {
+  /* background-color: rgb(185, 185, 185); */
+  background-image: url('cust_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+/* submit button style */
+.loginsubmit {
+  background-color: black;
+  color: white;
+  padding: 7px 25px;
+}
+
+/* back to index pg (login) */
+.loginback {
+  color: black;
+  padding: 7px 25px;
+}
+
+/* content in form (login) */
+.loginform {
+  margin-bottom: 10px;
+}
+
+/* aligning input box (login) */
+label {
+  display: inline-block;
+  width: 90px;
+}
+
+/* welcome admin (adminhome) */
+.admintitle {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #AF6E4D, 0 0 20px #AF6E4D, 0 0 25px #AF6E4D, 0 0 30px #AF6E4D, 0 0 35px #AF6E4D;
+  text-align: center;
+  font-family: 'alex brush';
+  color: black;
+  font-size: 50px;
+}
+
+/* admin background (admin) */
+.adminbg {
+  background-image: url('adminbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+/* (adduser) */
+.contentBox {
+  text-align: center;
+  /* background-color: rgba(211, 211, 211, 0.404); */
+  padding: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* for all submit btn */
+.submit {
+  background-color: black;
+  color: white;
+  padding: 7px 25px;
+}
+
+/* (adduserprofile) */
+/* .adduserprofile {
+  text-align: center;
+  background-color: rgba(211, 211, 211, 0.404);
+  padding: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* for new user profile label (adduserprofile) */
+.nuptitle {
+  width: 17%;
+}
+
+/* (modifyuser) */
+
+/* modify user acct labels (modifyuser) */
+.mualabel {
+  width: 27%;
+}
+
+/* (modifyuserprofile) */
+.muplabel1 {
+  width: 40%;
+}
+
+.mupmodify {
+  width: 80%;
+}
+
+.muplabel2 {
+  width: 17%;
+}
+
+/* (suspenduser) */
+
+.sulabel1 {
+  width: 30%;
+}
+
+.sulabel2 {
+  width: 45%;
+}
+
+.suplabel1 {
+  width: 25%;
+}
+
+.rulabel1 {
+  width: 30%;
+}
+
+.rulabel2 {
+  width: 40%;
+}
+
+.ruplabel1 {
+  width: 25%;
+}
+
+.suulabel,
+.suplabel {
+  width: 15%;
+}
+
+.imgMenu {
+  object-fit: cover;
+  width:200px;
+  height:200px;
+}
+
+.panelHeading-height
+{
+  height: 90px;
+}
+
+.panelBody-height
+{
+  height: 400px;
+}
+
+.imgSearch 
+{
+  object-fit: cover;
+  width: 120px;
+  height:120px;
+}
+
+.imgThumbnail
+{
+  object-fit: cover;
+  width: 80px;
+  height:80px;
+}
