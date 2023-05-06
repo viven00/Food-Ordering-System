@@ -1,0 +1,12 @@
+{
+    "require": {
+        "phpunit/phpunit": "^9"
+    },
+
+    "autoload":{
+        "classmap":[
+            "User.php",
+            "UserProfile.php"
+        ]
+    }
+}
